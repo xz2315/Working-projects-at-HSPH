@@ -1,0 +1,677 @@
+3504  ******************************************************************************
+3505  Filename:       table1_hosp_char.sas
+3506  Data used:      AHA2010, RUCA_2006, hospvolume 2010 and readmrate02to10hccfixed
+3507  Purpose:        Create table 1
+3508  Date:           08/27/2013
+3509  ******************************************************************************;
+3510  %put Run on %sysfunc (date(), worddatx15. ) at  %sysfunc (time(), time9. ) ;
+Run on     27 Aug 2013 at   12:50:41
+3511
+3512  TITLE2 "Filename:   C:\data\Projects\Specialty_Hospitals\Programs\table1_hospchar.sas";
+3513  TITLE3 "Project:    Specialty Hospital (Physiican owned Hospital";
+3514  TITLE4 "Purpose:    Calculating Market share for physician owned hospital";
+3515
+3516  options nocenter ls=132 ps=1000 pageno=1;
+3517
+3518  LIBNAME ruca    "C:\data\Data\RUCA";
+NOTE: Libref RUCA was successfully assigned as follows:
+      Engine:        V9
+      Physical Name: C:\data\Data\RUCA
+3519  LIBNAME vol     "C:\data\Data\Hospital\Volume";
+NOTE: Libref VOL was successfully assigned as follows:
+      Engine:        V9
+      Physical Name: C:\data\Data\Hospital\Volume
+3520  LIBNAME aha     "C:\data\Data\Hospital\AHA";
+NOTE: Libref AHA was successfully assigned as follows:
+      Engine:        V9
+      Physical Name: C:\data\Data\Hospital\AHA
+3521  LIBNAME readm   "C:\data\Data\Hospital\Readmission\data";
+NOTE: Libname READM refers to the same physical library as REA.
+NOTE: Libref READM was successfully assigned as follows:
+      Engine:        V9
+      Physical Name: C:\data\Data\Hospital\Readmission\data
+3522  LIBNAME pen     "C:\data\Projects\Jha_Requests\Data";
+NOTE: Libref PEN was successfully assigned as follows:
+      Engine:        V9
+      Physical Name: C:\data\Projects\Jha_Requests\Data
+3523  data penalty;
+3524      set pen.Readm_penalty_2years (rename=(CMS_Certification_Number__CCN_=provider));
+3525
+3526      Penalty13=compress(FY2013_Readmission_Penalty, "%") * 1 /100;
+3527      Penalty14=compress(FY_2014_Readmission_Penalty, "%") * 1/100;
+3528
+
+NOTE: Character values have been converted to numeric values at the places given by: (Line):(Column).
+      3526:15   3527:15
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=30132 FY_2014_Readmissions_Adjustment_=1 Name=FLORENCE HOSPITAL AT ANTHEM, LLC City=FLORENCE State=ARIZONA County=PINAL
+FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data v2014_Penalty__Y_N_=No Penalty
+Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=Registered Penalty13=. Penalty14=0 _ERROR_=1 _N_=124
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=50772 FY_2014_Readmissions_Adjustment_=1 Name=KAISER FOUNDATION HOSPITAL - ROSEVILLE City=ROSEVILLE State=CALIFORNIA
+County=PLACER FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data
+v2014_Penalty__Y_N_=No Penalty Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=Registered Penalty13=.
+Penalty14=0 _ERROR_=1 _N_=319
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=100317 FY_2014_Readmissions_Adjustment_=1 Name=PROMISE HOSPITAL OF FLORIDA AT THE VILLAGES City=OXFORD State=FLORIDA
+County=SUMTER FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data
+v2014_Penalty__Y_N_=No Penalty Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=NOT LISTED Penalty13=.
+Penalty14=0 _ERROR_=1 _N_=725
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=150179 FY_2014_Readmissions_Adjustment_=1 Name=FAIRBANKS City=INDIANAPOLIS State=INDIANA County=MARION
+FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data v2014_Penalty__Y_N_=No Penalty
+Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=Registered Penalty13=. Penalty14=0 _ERROR_=1 _N_=1052
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=170202 FY_2014_Readmissions_Adjustment_=1 Name=Unknown Hospital/ City=#No Data State=KANSAS County=#No Data
+FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data v2014_Penalty__Y_N_=No Penalty
+Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=NOT LISTED Penalty13=. Penalty14=0 _ERROR_=1 _N_=1206
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=190304 FY_2014_Readmissions_Adjustment_=1 Name=IBERIA REHABILITATION HOSPITAL City=NEW IBERIA State=LOUISIANA County=IBERIA
+FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data v2014_Penalty__Y_N_=No Penalty
+Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=Registered Penalty13=. Penalty14=0 _ERROR_=1 _N_=1309
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=330409 FY_2014_Readmissions_Adjustment_=1 Name=BURDETT CARE CENTER City=TROY State=NEW YORK County=RENSSELAER
+FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data v2014_Penalty__Y_N_=No Penalty
+Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=NOT LISTED Penalty13=. Penalty14=0 _ERROR_=1 _N_=1932
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=330403 FY_2014_Readmissions_Adjustment_=1 Name=MONROE COMMUNITY HOSPITAL City=ROCHESTER State=NEW YORK County=MONROE
+FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data v2014_Penalty__Y_N_=No Penalty
+Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=Registered Penalty13=. Penalty14=0 _ERROR_=1 _N_=1996
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=360360 FY_2014_Readmissions_Adjustment_=1 Name=SOIN MEDICAL CENTER,INDU & RAJ SOIN MEDICAL CENTER City=BEAVER CREEK
+State=OHIO County=GREENE FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data
+v2014_Penalty__Y_N_=No Penalty Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=Registered Penalty13=.
+Penalty14=0 _ERROR_=1 _N_=2274
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=370236 FY_2014_Readmissions_Adjustment_=1 Name=INTEGRIS HEALTH EDMOND, INC City=EDMOND State=OKLAHOMA County=OKLAHOMA
+FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data v2014_Penalty__Y_N_=No Penalty
+Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=Registered Penalty13=. Penalty14=0 _ERROR_=1 _N_=2341
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=390326 FY_2014_Readmissions_Adjustment_=0.9992 Name=ST LUKE'S HOSPITAL - ANDERSON CAMPUS City=EASTON State=PENNSYLVANIA
+County=NORTHAMPTON FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.08% Change_2013_4=#No Data
+v2014_Penalty__Y_N_=Penalty Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=Registered Penalty13=.
+Penalty14=0.0008 _ERROR_=1 _N_=2560
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=390327 FY_2014_Readmissions_Adjustment_=1 Name=WELLSPAN SURGERY AND REHABILITATION HOSPITAL City=YORK State=PENNSYLVANIA
+County=YORK FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data
+v2014_Penalty__Y_N_=No Penalty Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=Registered Penalty13=.
+Penalty14=0 _ERROR_=1 _N_=2585
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=420105 FY_2014_Readmissions_Adjustment_=1 Name=MCLEOD LORIS SEACOAST HOSPITAL City=LORIS State=SOUTH CAROLINA County=HORRY
+FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data v2014_Penalty__Y_N_=No Penalty
+Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=Registered Penalty13=. Penalty14=0 _ERROR_=1 _N_=2636
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=670078 FY_2014_Readmissions_Adjustment_=1 Name=BAPTIST EMERGENCY HOSPITAL City=SAN ANTONIO State=TEXAS County=BEXAR
+FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data v2014_Penalty__Y_N_=No Penalty
+Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=Registered Penalty13=. Penalty14=0 _ERROR_=1 _N_=2786
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=670058 FY_2014_Readmissions_Adjustment_=1 Name=EMERUS HOSPITAL City=SUGAR LAND State=TEXAS County=FORT BEND
+FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data v2014_Penalty__Y_N_=No Penalty
+Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=Registered Penalty13=. Penalty14=0 _ERROR_=1 _N_=2867
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=670062 FY_2014_Readmissions_Adjustment_=1 Name=EMERUS HOSPITAL City=AUBREY State=TEXAS County=DENTON
+FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data v2014_Penalty__Y_N_=No Penalty
+Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=Registered Penalty13=. Penalty14=0 _ERROR_=1 _N_=2868
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=670079 FY_2014_Readmissions_Adjustment_=1 Name=LAKEWAY REGIONAL MEDICAL CENTER, LLC City=LAKEWAY State=TEXAS County=TRAVIS
+FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data v2014_Penalty__Y_N_=No Penalty
+Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=Registered Penalty13=. Penalty14=0 _ERROR_=1 _N_=2916
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=670077 FY_2014_Readmissions_Adjustment_=0.9992 Name=METHODIST WEST HOUSTON HOSPITAL City=HOUSTON State=TEXAS County=HARRIS
+FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.08% Change_2013_4=#No Data v2014_Penalty__Y_N_=Penalty
+Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=Registered Penalty13=. Penalty14=0.0008 _ERROR_=1
+_N_=2956
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+provider=670080 FY_2014_Readmissions_Adjustment_=1 Name=SETON MEDICAL CENTER HARKER HEIGHTS City=HARKER HEIGHTS State=TEXAS
+County=BELL FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data
+v2014_Penalty__Y_N_=No Penalty Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=Registered Penalty13=.
+Penalty14=0 _ERROR_=1 _N_=3009
+NOTE: Invalid numeric data, '#No Data' , at line 3526 column 15.
+WARNING: Limit set by ERRORS= option reached.  Further errors of this type will not be printed.
+provider=500152 FY_2014_Readmissions_Adjustment_=1 Name=SWEDISH ISSAQUAH City=ISSAQUAH State=WASHINGTON County=KING
+FY2013_Readmission_Penalty=#No Data FY_2014_Readmission_Penalty=0.00% Change_2013_4=#No Data v2014_Penalty__Y_N_=No Penalty
+Annual_Increase__Decrease_or_No_=#No Data Hospital_currently_registered_wi=Registered Penalty13=. Penalty14=0 _ERROR_=1 _N_=3252
+NOTE: Missing values were generated as a result of performing an operation on missing values.
+      Each place is given by: (Number of times) at (Line):(Column).
+      22 at 3526:57
+NOTE: There were 3379 observations read from the data set PEN.READM_PENALTY_2YEARS.
+NOTE: The data set WORK.PENALTY has 3379 observations and 14 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+
+
+3529      proc means Mean N Nmiss Min Max;
+3530      var penalty13 penalty14;
+3531      run;
+
+NOTE: There were 3379 observations read from the data set WORK.PENALTY.
+NOTE: PROCEDURE MEANS used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.03 seconds
+
+
+3532      proc sort; by provider;
+3533  run;
+
+NOTE: There were 3379 observations read from the data set WORK.PENALTY.
+NOTE: The data set WORK.PENALTY has 3379 observations and 14 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+
+
+3534  data aha2010;
+3535      set aha.aha10 (rename=(MCRNUM=provno));
+3536      zipa = substr (mloczip, 1, 5);
+3537
+3538      if serv=10 or serv=13 or serv=41 or serv=42 or serv=44 or serv=45
+3539      or serv=47 or serv=48 or serv=49;
+3540
+3541      if HOSP_REG4 not in (1,2,3,4) then delete;
+3542      if PROFIT2=4 then delete;
+3543
+3544      if provno in ("140077", "140124", "140151", "110078", "110226", "100001", "390156", "220011") then casehosp=1; else
+3544! casehosp=0;
+3545
+3546      provider = provno*1;
+
+NOTE: Character values have been converted to numeric values at the places given by: (Line):(Column).
+      3546:16
+NOTE: Missing values were generated as a result of performing an operation on missing values.
+      Each place is given by: (Number of times) at (Line):(Column).
+      58 at 3546:22
+NOTE: There were 6335 observations read from the data set AHA.AHA10.
+NOTE: The data set WORK.AHA2010 has 4749 observations and 1099 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.58 seconds
+      cpu time            0.57 seconds
+
+
+3547      proc freq; tables casehosp;
+
+NOTE: There were 4749 observations read from the data set WORK.AHA2010.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.03 seconds
+
+
+3548      proc sort; by zipa;
+3549  run;
+
+NOTE: There were 4749 observations read from the data set WORK.AHA2010.
+NOTE: The data set WORK.AHA2010 has 4749 observations and 1099 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.07 seconds
+      cpu time            0.07 seconds
+
+
+3550  data ruca;
+3551      set ruca.SAS_2006_RUCA;
+
+NOTE: There were 41901 observations read from the data set RUCA.SAS_2006_RUCA.
+NOTE: The data set WORK.RUCA has 41901 observations and 6 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+
+
+3552      proc sort; by zipa;
+3553  run;
+
+NOTE: There were 41901 observations read from the data set WORK.RUCA.
+NOTE: The data set WORK.RUCA has 41901 observations and 6 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+
+
+3554  data rucaaha;
+3555      merge   aha2010 (in=in1)
+3556              ruca (in=in2);
+3557      by      zipa;
+3558
+3559      if in1 then aha=1; else aha=0;
+3560      if in2 then ruca=1; else ruca=0;
+3561
+
+NOTE: There were 4749 observations read from the data set WORK.AHA2010.
+NOTE: There were 41901 observations read from the data set WORK.RUCA.
+NOTE: The data set WORK.RUCAAHA has 42277 observations and 1106 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.81 seconds
+      cpu time            0.81 seconds
+
+
+3562      proc freq; tables aha*ruca;
+
+NOTE: There were 42277 observations read from the data set WORK.RUCAAHA.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.12 seconds
+      cpu time            0.09 seconds
+
+
+3563      proc sort; by provider;
+3564  run;
+
+NOTE: There were 42277 observations read from the data set WORK.RUCAAHA.
+NOTE: The data set WORK.RUCAAHA has 42277 observations and 1106 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.71 seconds
+      cpu time            0.71 seconds
+
+
+3565  proc sort data=vol.hospvolume10 out=vol2010; by provider; run;
+
+NOTE: There were 22306 observations read from the data set VOL.HOSPVOLUME10.
+NOTE: The data set WORK.VOL2010 has 22306 observations and 7 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+
+
+3566  data readm;
+3567      set readm.readmrate02to10hccfixed;
+NOTE: Data file READM.READMRATE02TO10HCCFIXED.DATA is in a format that is native to another host, or the file encoding does not
+      match the session encoding. Cross Environment Data Access will be used, which might require additional CPU resources and
+      might reduce performance.
+3568
+3569      adjreadm30dayami = mean (adjamireadm08ALL, adjamireadm09ALL, adjamireadm10ALL);
+3570      adjreadm30daychf = mean (adjchfreadm08ALL, adjchfreadm09ALL, adjchfreadm10ALL);
+3571      adjreadm30daypn  = mean (adjpnreadm08ALL,  adjpnreadm09ALL,  adjpnreadm10ALL);
+3572
+3573      rawreadm30dayami = mean (amireadm08ALL, amireadm09ALL, amireadm10ALL);
+3574      rawreadm30daychf = mean (chfreadm08ALL, chfreadm09ALL, chfreadm10ALL);
+3575      rawreadm30daypn  = mean (pnreadm08ALL,  pnreadm09ALL,  pnreadm10ALL);
+3576
+
+NOTE: Missing values were generated as a result of performing an operation on missing values.
+      Each place is given by: (Number of times) at (Line):(Column).
+      328 at 3569:24   75 at 3570:24    60 at 3571:24    328 at 3573:24   75 at 3574:24    60 at 3575:24
+NOTE: There were 4562 observations read from the data set READM.READMRATE02TO10HCCFIXED.
+NOTE: The data set WORK.READM has 4562 observations and 250 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.10 seconds
+      cpu time            0.10 seconds
+
+
+3577      proc means data=readm N Nmiss Mean std;
+3578          var adjamireadm08ALL adjamireadm09ALL adjamireadm10ALL adjchfreadm08ALL adjchfreadm09ALL adjchfreadm10ALL
+3578! adjpnreadm08ALL  adjpnreadm09ALL  adjpnreadm10ALL; run;
+
+NOTE: There were 4562 observations read from the data set WORK.READM.
+NOTE: PROCEDURE MEANS used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.04 seconds
+
+
+3579      proc sort; by provider;
+3580  run;
+
+NOTE: There were 4562 observations read from the data set WORK.READM.
+NOTE: The data set WORK.READM has 4562 observations and 250 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+
+
+3581  data table1;
+3582      merge   rucaaha (where=(aha=1) in=in1)
+3583              vol2010 (in=in2)
+3584              readm   (in=in3)
+3585              penalty;
+3586      by      provider;
+3587      if      in1;
+3588
+3589      if in2 then vol=1; else vol=0;
+3590      if in3 then readm=1; else readm=0;
+3591
+3592      if RUCA_Level=1 then RUCACAT=1;
+3593      else if RUCA_Level in (2, 3) then RUCACAT=2;
+3594      else if RUCA_Level = 4    then RUCACAT=3;
+3595
+
+NOTE: MERGE statement has more than one data set with repeats of BY values.
+NOTE: There were 4749 observations read from the data set WORK.RUCAAHA.
+      WHERE aha=1;
+NOTE: There were 22306 observations read from the data set WORK.VOL2010.
+NOTE: There were 4562 observations read from the data set WORK.READM.
+NOTE: There were 3379 observations read from the data set WORK.PENALTY.
+NOTE: The data set WORK.TABLE1 has 4796 observations and 1377 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.47 seconds
+      cpu time            0.46 seconds
+
+
+3596      proc freq data=table1;
+3597          tables ruca_level*casehosp;
+3598  run;
+
+NOTE: There were 4796 observations read from the data set WORK.TABLE1.
+NOTE: PROCEDURE FREQ used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.03 seconds
+
+
+3599  %MACRO strname (strvar, title);
+3600      %MACRO HOSP (HVAR);
+3601          %DO I = 1 %TO 5;
+3602                  proc surveyfreq data=table1;
+3603                      ODS OUTPUT CrossTabs=freq&title&i;
+3604                      tables %scan(&hvar., &i)* &strvar /chisq col cl;
+3605                  run;
+3606                  data h&title.&i;
+3607                      keep    byvar variable value  P1  P2;
+3608                      retain  byvar variable value  P1  P2;
+3609                      merge freq&title&i (where=(%scan(&hvar., &i)^=. and &strvar=1)
+3610                                                    keep=%scan(&hvar., &i) &strvar Frequency colPercent colLowerCL colUpperCL
+3611                                                    rename=(Frequency=N1 colpercent=P1 colLowerCL=LCL1 colUpperCL=UCL1))
+3612                            freq&title&i (where=(%scan(&hvar., &i)^=. and &strvar=0)
+3613                                                    keep=%scan(&hvar., &i) &strvar Frequency colPercent colLowerCL colUpperCL
+3614                                                    rename=(Frequency=N2 colpercent=P2 colLowerCL=LCL2 colUpperCL=UCL2))
+3615                  ;
+3616                  variable="%scan(&hvar., &i)";
+3617                  value = %scan(&hvar., &i);
+3618                  byvar = "&strvar";
+3619
+3620                  *proc print data=h&title.&i;
+3621                  title5 "Table 1: Variable %scan(&hvar., &i) by &strvar";
+3622                  run;
+3623          %end;
+3624          %DO I = 6 %TO 12;
+3625                  proc summary data=table1;
+3626                      class   &strvar;
+3627                      var     %scan(&hvar., &i);
+3628                  output out=n&title&i mean=mean&i median=med&i;
+3629                  run;
+3630                  data h&title.&i;
+3631                      keep    byvar variable value  P1 Med1 P2 Med2;
+3632                      retain  byvar variable value  P1 Med1 P2 Med2;
+3633                      merge n&title&i (where=(&strvar=1)  keep=&strvar mean&i med&i   rename=(mean&i=P1 med&i=MED1))
+3634                            n&title&i (where=(&strvar=0)  keep=&strvar mean&i med&i   rename=(mean&i=P2 med&i=MED2))
+3635                  ;
+3636                  variable="%scan(&hvar., &i)";
+3637                  byvar = "&strvar";
+3638                  value=1;
+3639
+3640                  *proc print data=h&title.&i;
+3641                  title5 "Table 1: Variable %scan(&hvar., &i) by &strvar";
+3642                  run;
+3643          %end;
+3644      %mend;
+3645      %hosp (HOSPSIZE PROFIT2 HOSP_REG4 RUCAcat mapp8 propblk10 p_medicaid p_medicare adjreadm30dayami adjreadm30daychf
+3645! adjreadm30daypn Penalty13);
+3646      run;
+3647  data h&title;
+3648      set h&title.1   h&title.2   h&title.3   h&title.4  h&title.5  h&title.6  h&title.7  h&title.8  h&title.9
+3649          h&title.10  h&title.11  h&title.12;
+3650
+3651      proc print data=h&title;
+3652      title5 "Table 1 - Hospital Characteristics";
+3653  run;
+3654  %mend;
+3655  %strname (casehosp, case);
+
+NOTE: The data set WORK.FREQCASE1 has 12 observations and 15 variables.
+NOTE: PROCEDURE SURVEYFREQ used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+
+
+
+NOTE: There were 3 observations read from the data set WORK.FREQCASE1.
+      WHERE (HOSPSIZE not = .) and (casehosp=1);
+NOTE: There were 3 observations read from the data set WORK.FREQCASE1.
+      WHERE (HOSPSIZE not = .) and (casehosp=0);
+NOTE: The data set WORK.HCASE1 has 3 observations and 5 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+
+
+
+NOTE: The data set WORK.FREQCASE2 has 12 observations and 15 variables.
+NOTE: PROCEDURE SURVEYFREQ used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+
+
+
+NOTE: There were 3 observations read from the data set WORK.FREQCASE2.
+      WHERE (PROFIT2 not = .) and (casehosp=1);
+NOTE: There were 3 observations read from the data set WORK.FREQCASE2.
+      WHERE (PROFIT2 not = .) and (casehosp=0);
+NOTE: The data set WORK.HCASE2 has 3 observations and 5 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+
+
+
+NOTE: No tests can be computed for the table of hosp_reg4 by casehosp because at least one table cell has 0 frequency.
+NOTE: The data set WORK.FREQCASE3 has 15 observations and 15 variables.
+NOTE: PROCEDURE SURVEYFREQ used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+
+
+
+NOTE: There were 4 observations read from the data set WORK.FREQCASE3.
+      WHERE (HOSP_REG4 not = .) and (casehosp=1);
+NOTE: There were 4 observations read from the data set WORK.FREQCASE3.
+      WHERE (HOSP_REG4 not = .) and (casehosp=0);
+NOTE: The data set WORK.HCASE3 has 4 observations and 5 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+
+
+
+NOTE: No tests can be computed for the table of RUCACAT by casehosp because at least one table cell has 0 frequency.
+NOTE: The data set WORK.FREQCASE4 has 12 observations and 15 variables.
+NOTE: PROCEDURE SURVEYFREQ used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+
+
+
+NOTE: There were 3 observations read from the data set WORK.FREQCASE4.
+      WHERE (RUCAcat not = .) and (casehosp=1);
+NOTE: There were 3 observations read from the data set WORK.FREQCASE4.
+      WHERE (RUCAcat not = .) and (casehosp=0);
+NOTE: The data set WORK.HCASE4 has 3 observations and 5 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+
+
+
+NOTE: The data set WORK.FREQCASE5 has 9 observations and 15 variables.
+NOTE: PROCEDURE SURVEYFREQ used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+
+
+
+NOTE: There were 2 observations read from the data set WORK.FREQCASE5.
+      WHERE (mapp8 not = .) and (casehosp=1);
+NOTE: There were 2 observations read from the data set WORK.FREQCASE5.
+      WHERE (mapp8 not = .) and (casehosp=0);
+NOTE: The data set WORK.HCASE5 has 2 observations and 5 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+
+
+
+NOTE: There were 4796 observations read from the data set WORK.TABLE1.
+NOTE: The data set WORK.NCASE6 has 3 observations and 5 variables.
+NOTE: PROCEDURE SUMMARY used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+
+
+
+NOTE: There were 1 observations read from the data set WORK.NCASE6.
+      WHERE casehosp=1;
+NOTE: There were 1 observations read from the data set WORK.NCASE6.
+      WHERE casehosp=0;
+NOTE: The data set WORK.HCASE6 has 1 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+
+
+
+NOTE: There were 4796 observations read from the data set WORK.TABLE1.
+NOTE: The data set WORK.NCASE7 has 3 observations and 5 variables.
+NOTE: PROCEDURE SUMMARY used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.03 seconds
+
+
+
+NOTE: There were 1 observations read from the data set WORK.NCASE7.
+      WHERE casehosp=1;
+NOTE: There were 1 observations read from the data set WORK.NCASE7.
+      WHERE casehosp=0;
+NOTE: The data set WORK.HCASE7 has 1 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+
+
+
+NOTE: There were 4796 observations read from the data set WORK.TABLE1.
+NOTE: The data set WORK.NCASE8 has 3 observations and 5 variables.
+NOTE: PROCEDURE SUMMARY used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.04 seconds
+
+
+
+NOTE: There were 1 observations read from the data set WORK.NCASE8.
+      WHERE casehosp=1;
+NOTE: There were 1 observations read from the data set WORK.NCASE8.
+      WHERE casehosp=0;
+NOTE: The data set WORK.HCASE8 has 1 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+
+
+
+NOTE: There were 4796 observations read from the data set WORK.TABLE1.
+NOTE: The data set WORK.NCASE9 has 3 observations and 5 variables.
+NOTE: PROCEDURE SUMMARY used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.03 seconds
+
+
+
+NOTE: There were 1 observations read from the data set WORK.NCASE9.
+      WHERE casehosp=1;
+NOTE: There were 1 observations read from the data set WORK.NCASE9.
+      WHERE casehosp=0;
+NOTE: The data set WORK.HCASE9 has 1 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+
+
+
+NOTE: There were 4796 observations read from the data set WORK.TABLE1.
+NOTE: The data set WORK.NCASE10 has 3 observations and 5 variables.
+NOTE: PROCEDURE SUMMARY used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.04 seconds
+
+
+
+NOTE: There were 1 observations read from the data set WORK.NCASE10.
+      WHERE casehosp=1;
+NOTE: There were 1 observations read from the data set WORK.NCASE10.
+      WHERE casehosp=0;
+NOTE: The data set WORK.HCASE10 has 1 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+
+
+
+NOTE: There were 4796 observations read from the data set WORK.TABLE1.
+NOTE: The data set WORK.NCASE11 has 3 observations and 5 variables.
+NOTE: PROCEDURE SUMMARY used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.03 seconds
+
+
+
+NOTE: There were 1 observations read from the data set WORK.NCASE11.
+      WHERE casehosp=1;
+NOTE: There were 1 observations read from the data set WORK.NCASE11.
+      WHERE casehosp=0;
+NOTE: The data set WORK.HCASE11 has 1 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+
+
+
+NOTE: There were 4796 observations read from the data set WORK.TABLE1.
+NOTE: The data set WORK.NCASE12 has 3 observations and 5 variables.
+NOTE: PROCEDURE SUMMARY used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+
+
+
+NOTE: There were 1 observations read from the data set WORK.NCASE12.
+      WHERE casehosp=1;
+NOTE: There were 1 observations read from the data set WORK.NCASE12.
+      WHERE casehosp=0;
+NOTE: The data set WORK.HCASE12 has 1 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+
+
+
+WARNING: Multiple lengths were specified for the variable variable by input data set(s). This may cause truncation of data.
+NOTE: There were 3 observations read from the data set WORK.HCASE1.
+NOTE: There were 3 observations read from the data set WORK.HCASE2.
+NOTE: There were 4 observations read from the data set WORK.HCASE3.
+NOTE: There were 3 observations read from the data set WORK.HCASE4.
+NOTE: There were 2 observations read from the data set WORK.HCASE5.
+NOTE: There were 1 observations read from the data set WORK.HCASE6.
+NOTE: There were 1 observations read from the data set WORK.HCASE7.
+NOTE: There were 1 observations read from the data set WORK.HCASE8.
+NOTE: There were 1 observations read from the data set WORK.HCASE9.
+NOTE: There were 1 observations read from the data set WORK.HCASE10.
+NOTE: There were 1 observations read from the data set WORK.HCASE11.
+NOTE: There were 1 observations read from the data set WORK.HCASE12.
+NOTE: The data set WORK.HCASE has 22 observations and 7 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+
+
+NOTE: There were 22 observations read from the data set WORK.HCASE.
+NOTE: At least one W.D format was too small for the number to be printed. The decimal may be shifted by the "BEST" format.
+NOTE: PROCEDURE PRINT used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+
+
+3656  run;
+3657      proc print data=hcase;
+3658      title5 "Table 1 - Hospital Characteristics";
+3659  run;
+
+NOTE: There were 22 observations read from the data set WORK.HCASE.
+NOTE: At least one W.D format was too small for the number to be printed. The decimal may be shifted by the "BEST" format.
+NOTE: PROCEDURE PRINT used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+
+

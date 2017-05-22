@@ -1,0 +1,546 @@
+1                                        The SAS System           11:46 Monday, February 2, 2015
+
+NOTE: Copyright (c) 2002-2012 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.4 (TS1M0) 
+      Licensed to HARVARD UNIVERSITY - SFA T&R, Site 70106879.
+NOTE: This session is executing on the X64_ES08R2  platform.
+
+
+
+NOTE: Updated analytical products:
+      
+      SAS/STAT 12.3 (maintenance)
+      SAS/ETS 12.3 (maintenance)
+      SAS/OR 12.3 (maintenance)
+      SAS/IML 12.3 (maintenance)
+      SAS/QC 12.3 (maintenance)
+
+NOTE: Additional host information:
+
+ X64_ES08R2 WIN 6.1.7601 Service Pack 1 Server
+
+NOTE: SAS initialization used:
+      real time           0.78 seconds
+      cpu time            0.10 seconds
+      
+1          *****************************************
+2          3 group comparison for QCOR conference abstract
+3          1/30/2015
+4          Xiner Zhou
+5          *******************************************;
+6          
+7          libname data 'C:\data\Projects\Minority_Readmissions\Data';
+NOTE: Libref DATA was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: C:\data\Projects\Minority_Readmissions\Data
+8          libname aha 'C:\data\Data\Hospital\AHA\Annual_Survey\Data';
+NOTE: Libref AHA was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: C:\data\Data\Hospital\AHA\Annual_Survey\Data
+9          
+10         
+11         **************************************Import final survey and denominator file;
+12         %macro imp_xls(file=,out=);
+13         proc import datafile="&file." dbms=xls out=&out. replace;
+14         getnames=yes;
+15         run;
+16         %mend imp_xls;
+17         
+18         %imp_xls(file=C:\data\Projects\Minority_Readmissions\Data\MRsurvey.xls,out=survey)
+
+NOTE:    Variable Name Change.  HSPH ID -> HSPH_ID                         
+NOTE:    Variable Name Change.  Designation (MSH, etc) -> VAR3                            
+NOTE:    Variable Name Change.  AHA ID -> AHA_ID                          
+NOTE:    Variable Name Change.  TRACT.DT (Datastat only) -> VAR5                            
+NOTE:    Variable Name Change.  DSID (Datastat only) -> DSID__Datastat_only_            
+2                                        The SAS System           11:46 Monday, February 2, 2015
+
+NOTE:    Variable Name Change.  MAIL STAT (Datastat only) -> MAIL_STAT__Datastat_only_       
+NOTE:    Variable Name Change.  Q1.1 -> Q1_1                            
+NOTE:    Variable Name Change.  Q1.2 -> Q1_2                            
+NOTE:    Variable Name Change.  Q1.3 -> Q1_3                            
+NOTE:    Variable Name Change.  Q1.4 -> Q1_4                            
+NOTE:    Variable Name Change.  Q1.5 -> Q1_5                            
+NOTE:    Variable Name Change.  Q1.OTH -> Q1_OTH                          
+NOTE:    Variable Name Change.  Q9.1 -> Q9_1                            
+NOTE:    Variable Name Change.  RECODE Q9.1 -> RECODE_Q9_1                     
+NOTE:    Variable Name Change.  SUBCODE of N Q9.1 -> SUBCODE_of_N_Q9_1               
+NOTE:    Variable Name Change.  Q9.2 -> Q9_2                            
+NOTE:    Variable Name Change.  RECODE Q9.2 -> RECODE_Q9_2                     
+NOTE:    Variable Name Change.  SUBCODE Q9.2 -> SUBCODE_Q9_2                    
+NOTE:    Variable Name Change.  Q9.3 (redcap only) -> VAR60                           
+NOTE:    Variable Name Change.  Q17.1 -> Q17_1                           
+NOTE:    Variable Name Change.  RECODE Q17.1 -> RECODE_Q17_1                    
+NOTE:    Variable Name Change.  Q17.2 -> Q17_2                           
+NOTE:    Variable Name Change.  RECODE Q17.2 -> RECODE_Q17_2                    
+NOTE:    Variable Name Change.  Q26A.1 -> Q26A_1                          
+NOTE:    Variable Name Change.  Q26B.1 -> Q26B_1                          
+NOTE:    Variable Name Change.  Q26B.2 -> Q26B_2                          
+NOTE:    Variable Name Change.  Q26B.3 -> Q26B_3                          
+NOTE:    Variable Name Change.  Q26B.4 -> Q26B_4                          
+NOTE:    Variable Name Change.  Q26B.5 -> Q26B_5                          
+NOTE:    Variable Name Change.  Q26B.6 -> Q26B_6                          
+NOTE: The import data set has 1001 observations and 132 variables.
+NOTE: WORK.SURVEY data set was successfully created.
+NOTE: PROCEDURE IMPORT used (Total process time):
+      real time           0.14 seconds
+      cpu time            0.03 seconds
+      
+
+19         %imp_xls(file=C:\data\Projects\Minority_Readmissions\Data\denominator.xls,out=denomin
+19       ! ator)
+
+NOTE:    Variable Name Change.  HSPH ID -> HSPH_ID                         
+NOTE:    Variable Name Change.  Medicare ID -> Medicare_ID                     
+NOTE:    Variable Name Change.  Hospital Name -> Hospital_Name                   
+NOTE:    Variable Name Change.  Address 1 -> Address_1                       
+NOTE:    Variable Name Change.  Address 2 -> Address_2                       
+NOTE:    Variable Name Change.  hosp-reg4 -> hosp_reg4                       
+NOTE: The import data set has 1600 observations and 16 variables.
+NOTE: WORK.DENOMINATOR data set was successfully created.
+NOTE: PROCEDURE IMPORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+20         
+21         data denominator;
+22         set denominator;
+23         if length(trim(medicare_id))=5 then medicare_id='0'||medicare_id;
+24         run;
+3                                        The SAS System           11:46 Monday, February 2, 2015
+
+
+NOTE: There were 1600 observations read from the data set WORK.DENOMINATOR.
+NOTE: The data set WORK.DENOMINATOR has 1600 observations and 16 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+25         
+26         * Delete critical, LTAC, children's;
+27         data deletethem;
+28         set denominator;
+29         if substr(medicare_id,3,2) in ('13','20','21','22','33');
+30         run;
+
+NOTE: There were 1600 observations read from the data set WORK.DENOMINATOR.
+NOTE: The data set WORK.DELETETHEM has 22 observations and 16 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+
+31         proc sql;
+32         create table survey1 as
+33         select *
+34         from survey
+35         where hsph_id not in (select hsph_id from deletethem);
+NOTE: Table WORK.SURVEY1 created, with 992 rows and 132 columns.
+
+36         quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.24 seconds
+      cpu time            0.01 seconds
+      
+
+37         
+38         
+39         * Link with 2010 AHA, rank MSHs by %black, let 360(I think should be 356) be top 10%;
+40         data MSH nonMSH;
+41         set denominator;
+42         if designation='MSH' then output MSH;else output nonMSH;
+43         run;
+
+NOTE: There were 1600 observations read from the data set WORK.DENOMINATOR.
+NOTE: The data set WORK.MSH has 899 observations and 16 variables.
+NOTE: The data set WORK.NONMSH has 701 observations and 16 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+
+44         
+45         proc sql;
+4                                        The SAS System           11:46 Monday, February 2, 2015
+
+46         create table MSHAHA10 as
+47         select a.*,b.propblk10
+48         from MSH a left join aha.aha10 b
+49         on a.medicare_id=b.provider;
+NOTE: Table WORK.MSHAHA10 created, with 899 rows and 17 columns.
+
+50         quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+      
+
+51         data try MSHAHA;
+52         set mshaha10;
+53         if propblk10 =. then output try;else output MSHAHA;
+54         run;
+
+NOTE: There were 899 observations read from the data set WORK.MSHAHA10.
+NOTE: The data set WORK.TRY has 8 observations and 17 variables.
+NOTE: The data set WORK.MSHAHA has 891 observations and 17 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+
+55         
+56         proc sql;
+57         create table try1 as
+58         select a.*,b.propblk12
+59         from try a left join aha.aha12 b
+60         on a.medicare_id=b.provider;
+NOTE: Table WORK.TRY1 created, with 8 rows and 18 columns.
+
+61         quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+      
+
+62         proc sql;
+63         create table try2 as
+64         select a.*,b.propblk11
+65         from try1 a left join aha.aha11 b
+66         on a.medicare_id=b.provider;
+NOTE: Table WORK.TRY2 created, with 8 rows and 19 columns.
+
+67         quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+68         proc sql;
+5                                        The SAS System           11:46 Monday, February 2, 2015
+
+69         create table try3 as
+70         select a.*,b.propblk10
+71         from try2 a left join aha.aha10 b
+72         on a.medicare_id=b.provider;
+WARNING: Variable propblk10 already exists on file WORK.TRY3.
+NOTE: Table WORK.TRY3 created, with 8 rows and 19 columns.
+
+73         quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.03 seconds
+      
+
+74         proc sql;
+75         create table try4 as
+76         select a.*,b.propblk09
+77         from try3 a left join aha.aha09 b
+78         on a.medicare_id=b.provider;
+NOTE: Table WORK.TRY4 created, with 8 rows and 20 columns.
+
+79         quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+      
+
+80         
+81         data try;
+82         set try4;
+83         if propblk11 ne . then propblk10=propblk11;
+84         else if propblk12 ne . then propblk10=propblk12;
+85         else if propblk09 ne . then propblk10=propblk09;
+86         run;
+
+NOTE: There were 8 observations read from the data set WORK.TRY4.
+NOTE: The data set WORK.TRY has 8 observations and 20 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+87         
+88         data MSH;
+89         set MSHAHA try;
+90         drop propblk11 propblk12 propblk09;
+91         run;
+
+NOTE: There were 891 observations read from the data set WORK.MSHAHA.
+NOTE: There were 8 observations read from the data set WORK.TRY.
+NOTE: The data set WORK.MSH has 899 observations and 17 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+6                                        The SAS System           11:46 Monday, February 2, 2015
+
+      
+
+92         
+93         proc sort data=MSH;by descending propblk10;run;
+
+NOTE: There were 899 observations read from the data set WORK.MSH.
+NOTE: The data set WORK.MSH has 899 observations and 17 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+
+94         
+95         data MSH;
+96         length group $30.;
+97         set MSH;
+98         if _n_<=356 then group='Top 10%';
+99         else group='Top 10-25%';
+100        run;
+
+NOTE: There were 899 observations read from the data set WORK.MSH.
+NOTE: The data set WORK.MSH has 899 observations and 18 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+101        
+102        data nonMSH;
+103        length group $30.;
+104        set nonMSH;
+105        group='non-MSH';
+106        run;
+
+NOTE: There were 701 observations read from the data set WORK.NONMSH.
+NOTE: The data set WORK.NONMSH has 701 observations and 17 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+107        
+108        data denominator;
+109        set MSH nonMSH;
+110        run;
+
+NOTE: There were 899 observations read from the data set WORK.MSH.
+NOTE: There were 701 observations read from the data set WORK.NONMSH.
+NOTE: The data set WORK.DENOMINATOR has 1600 observations and 18 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+7                                        The SAS System           11:46 Monday, February 2, 2015
+
+
+111        
+112        
+113        
+114        
+115        
+116        
+117        /*
+118        1. Assigning sampling weight:
+119        Group 1: MSHs-sampled all 900 (top 25.3% of 3556 hospitals), so sample weight of 1
+120        Group 2: (Q1: poor performers) 233 of 533 (sample weight 2.29)
+121        Group 3: (Q2-Q4: medium performers) 233 of 1594 (sample weight 6.84)
+122        Group 4: (Q5: high performers) 233 of 533 (sample weight 2.29)
+123        
+124        2. Assigning nonresponse weight:
+125        For this step, Karen mentioned that they had already created a logistic regression
+125      ! model with all of the sampled hospitals
+126        (they did it with 1500 but we need to adjust it for 1600).  The outcome of the model
+126      ! is response, and the predictors are hospital characteristics.
+127        Each hospital then gets a predicted probability of response.  Their nonresponse
+127      ! weight is 1/p(response).
+128        
+129        3. Multiply the two weights together to create their final weight.  All the survey
+129      ! results then get adjusted by this weight.
+130        */
+131        
+132        
+133        ***************************************** Clean ;
+134        data survey;
+135        set survey1;
+136        if var3='Non-MSH Q1' then var3='Q1';
+137        if var3='Non-MSH Q2-4' then var3='Q2-4';
+138        if var3='Non-MSH Q5' then var3='Q5';
+139        
+140        if q16=. then q16=9;
+141        if q18a=. then q18a=9;
+142        
+143        if medid='140234' then hsph_id='R00211a';
+144        rename var3=designation;
+145        drop a AHA_ID var5 DSID__Datastat_only_ MAIL_STAT__Datastat_only_;
+146        run;
+
+WARNING: The variable a in the DROP, KEEP, or RENAME list has never been referenced.
+NOTE: There were 992 observations read from the data set WORK.SURVEY1.
+NOTE: The data set WORK.SURVEY has 992 observations and 128 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+
+147        
+148        **************************************Sampling weight;
+149        
+8                                        The SAS System           11:46 Monday, February 2, 2015
+
+150        /*
+151        MSH             899
+152        Non-MSH Q1      39
+153        Non-MSH Q2-4    36
+154        Non-MSH Q5      44
+155        Q1              194
+156        Q2-4            198
+157        Q5              190
+158        
+159        --> MSH: sampled 899 out of top 25% of 3556 (899), so sample weight=1
+160        --> non-MSH Q1: sampled 233 out of 531, so sample weight=2.27897
+161        --> non-MSH Q2-Q4: sampled 234 out of 1594, so sample weight=6.811966
+162        --> non-MSH Q5: sampled 234 out of 531, so sample weight=2.27897
+163        */
+164        data survey;
+165        set survey;
+166        if designation='MSH' then swt=1;
+167        if designation ='Q1' then swt=531/233;
+168        if designation='Q2-4' then swt=1595/234;
+169        if designation='Q5' then swt=531/234;
+170        run;
+
+NOTE: There were 992 observations read from the data set WORK.SURVEY.
+NOTE: The data set WORK.SURVEY has 992 observations and 129 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+171        
+172        *********************************** Non-response weight;
+173        proc sql;
+174        create table temp as
+175        select a.medicare_id, a.group,a.Hospital_Name,a.urban,a.profit2,a.teaching,
+175      ! a.hospsize, a.hosp_reg4, a.CICU, a.mhsmemb, b.*
+176        from denominator a full join survey  b
+177        on a.hsph_id=b.hsph_id;
+NOTE: Table WORK.TEMP created, with 1601 rows and 139 columns.
+
+178        quit;
+NOTE: PROCEDURE SQL used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.03 seconds
+      
+
+179        
+180        data temp;
+181        set temp;
+182        if Q1_1=. then respond=0;else respond=1;
+183        if mhsmemb=. then mhsmemb=3;
+184        if cicu=. then cicu=3;
+185        run;
+
+9                                        The SAS System           11:46 Monday, February 2, 2015
+
+NOTE: There were 1601 observations read from the data set WORK.TEMP.
+NOTE: The data set WORK.TEMP has 1601 observations and 140 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+
+186        
+187        
+188        
+189        proc logistic data=temp   ;
+190        title 'Response Rate Model';
+191        	class respond(ref="0") urban(ref="1")  profit2(ref="1") teaching(ref="3")
+191      ! hosp_reg4(ref="1") CICU(ref="1") mhsmemb(ref="1")  /param=ref ;
+192        	model respond  = urban profit2 teaching hosp_reg4 CICU mhsmemb ;
+193        	output  out=temp1 p=prob;
+194        run;
+
+NOTE: PROC LOGISTIC is modeling the probability that respond=1.
+NOTE: Convergence criterion (GCONV=1E-8) satisfied.
+NOTE: There were 1601 observations read from the data set WORK.TEMP.
+NOTE: The data set WORK.TEMP1 has 1601 observations and 142 variables.
+NOTE: The PROCEDURE LOGISTIC printed pages 1-4.
+NOTE: PROCEDURE LOGISTIC used (Total process time):
+      real time           0.22 seconds
+      cpu time            0.07 seconds
+      
+
+195        data temp2;
+196        set temp1;
+197        if prob=. then prob=0.6247655;
+198        wt=swt/prob;
+199        if respond=1;
+200        
+201        
+202        run;
+
+NOTE: Missing values were generated as a result of performing an operation on missing values.
+      Each place is given by: (Number of times) at (Line):(Column).
+      609 at 198:7   
+NOTE: There were 1601 observations read from the data set WORK.TEMP1.
+NOTE: The data set WORK.TEMP2 has 992 observations and 143 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+203        
+204        data temp3;
+205        set temp2;
+206        if group='Top 10%' then g=1;
+207        if group='Top 10-25%' then g=2;
+208        if group='non-MSH' then g=0;
+10                                       The SAS System           11:46 Monday, February 2, 2015
+
+209        if q7c ne 1 then q7c=0;
+210        run;
+
+NOTE: There were 992 observations read from the data set WORK.TEMP2.
+NOTE: The data set WORK.TEMP3 has 992 observations and 144 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.01 seconds
+      
+
+211        ods graphics on;
+212        proc anova data=temp3 ;
+213        class g;
+214              model q7c= g ;
+215        	  means g/LSD BON;
+216           run;
+
+217           ods graphics off;
+218        
+219        
+220        
+221        
+222        
+223        
+224        
+225        
+226        *************************************3 group comparison;
+227        
+228        ****************************Weighted Simple frequency for each question;
+
+NOTE: The PROCEDURE ANOVA printed pages 5-8.
+NOTE: PROCEDURE ANOVA used (Total process time):
+      real time           3.37 seconds
+      cpu time            0.10 seconds
+      
+
+NOTE: PROCEDURE FORMAT used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+ERROR: User asked for termination
+NOTE: The SAS System stopped processing this step because of errors.
+ERROR: Errors printed on page 10.
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: The SAS System used:
+      real time           5.16 seconds
+      cpu time            0.62 seconds
+      

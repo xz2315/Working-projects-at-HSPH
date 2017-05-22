@@ -1,0 +1,415 @@
+The SAS System                                                                                     09:47 Friday, August 23, 2013   1
+Filename:   C:\data\Projects\Specialty_Hospitals\Programs\table1_hospchar.sas
+Project:    Specialty Hospital (Physiican owned Hospital
+Purpose:    Calculating Market share for physician owned hospital
+
+The MEANS Procedure
+
+                                        N
+Variable             Mean       N    Miss         Minimum         Maximum
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+Penalty13       0.0027496    3357      22               0       0.0100000
+Penalty14       0.0025278    3379       0               0       0.0200000
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+The SAS System                                                                                     09:47 Friday, August 23, 2013   2
+Filename:   C:\data\Projects\Specialty_Hospitals\Programs\table1_hospchar.sas
+Project:    Specialty Hospital (Physiican owned Hospital
+Purpose:    Calculating Market share for physician owned hospital
+
+The FREQ Procedure
+
+                                     Cumulative    Cumulative
+casehosp    Frequency     Percent     Frequency      Percent
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+       0        4741       99.83          4741        99.83
+       1           8        0.17          4749       100.00
+The SAS System                                                                                     09:47 Friday, August 23, 2013   3
+Filename:   C:\data\Projects\Specialty_Hospitals\Programs\table1_hospchar.sas
+Project:    Specialty Hospital (Physiican owned Hospital
+Purpose:    Calculating Market share for physician owned hospital
+
+The FREQ Procedure
+
+Table of aha by ruca
+
+aha       ruca
+
+Frequency‚
+Percent  ‚
+Row Pct  ‚
+Col Pct  ‚       0‚       1‚  Total
+ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+       0 ‚      0 ‚  37528 ‚  37528
+         ‚   0.00 ‚  88.77 ‚  88.77
+         ‚   0.00 ‚ 100.00 ‚
+         ‚   0.00 ‚  88.79 ‚
+ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+       1 ‚     12 ‚   4737 ‚   4749
+         ‚   0.03 ‚  11.20 ‚  11.23
+         ‚   0.25 ‚  99.75 ‚
+         ‚ 100.00 ‚  11.21 ‚
+ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+Total          12    42265    42277
+             0.03    99.97   100.00
+The SAS System                                                                                     09:47 Friday, August 23, 2013   4
+Filename:   C:\data\Projects\Specialty_Hospitals\Programs\table1_hospchar.sas
+Project:    Specialty Hospital (Physiican owned Hospital
+Purpose:    Calculating Market share for physician owned hospital
+
+The MEANS Procedure
+
+                               N
+Variable               N    Miss            Mean         Std Dev
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+adjamireadm08ALL    3944     618       0.2024439       0.2173281
+adjamireadm09ALL    3846     716       0.1924083       0.2147255
+adjamireadm10ALL    3808     754       0.1949909       0.2452249
+adjchfreadm08ALL    4441     121       0.2559132       0.1436594
+adjchfreadm09ALL    4400     162       0.2546470       0.1334478
+adjchfreadm10ALL    4352     210       0.2521637       0.1349365
+adjpnreadm08ALL     4483      79       0.1853191       0.1038822
+adjpnreadm09ALL     4432     130       0.1858143       0.0915536
+adjpnreadm10ALL     4392     170       0.1870259       0.1197593
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+The SAS System                                                                                     09:47 Friday, August 23, 2013   5
+Filename:   C:\data\Projects\Specialty_Hospitals\Programs\table1_hospchar.sas
+Project:    Specialty Hospital (Physiican owned Hospital
+Purpose:    Calculating Market share for physician owned hospital
+
+The FREQ Procedure
+
+Table of ruca_level by casehosp
+
+ruca_level     casehosp
+
+Frequency‚
+Percent  ‚
+Row Pct  ‚
+Col Pct  ‚       0‚       1‚  Total
+ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+       1 ‚   2196 ‚      8 ‚   2204
+         ‚  45.90 ‚   0.17 ‚  46.07
+         ‚  99.64 ‚   0.36 ‚
+         ‚  45.98 ‚ 100.00 ‚
+ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+       2 ‚    283 ‚      0 ‚    283
+         ‚   5.92 ‚   0.00 ‚   5.92
+         ‚ 100.00 ‚   0.00 ‚
+         ‚   5.93 ‚   0.00 ‚
+ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+       3 ‚    775 ‚      0 ‚    775
+         ‚  16.20 ‚   0.00 ‚  16.20
+         ‚ 100.00 ‚   0.00 ‚
+         ‚  16.23 ‚   0.00 ‚
+ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+       4 ‚   1522 ‚      0 ‚   1522
+         ‚  31.81 ‚   0.00 ‚  31.81
+         ‚ 100.00 ‚   0.00 ‚
+         ‚  31.87 ‚   0.00 ‚
+ƒƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆƒƒƒƒƒƒƒƒˆ
+Total        4776        8     4784
+            99.83     0.17   100.00
+
+Frequency Missing = 12
+The SAS System                                                                                     09:47 Friday, August 23, 2013   6
+Filename:   C:\data\Projects\Specialty_Hospitals\Programs\table1_hospchar.sas
+Project:    Specialty Hospital (Physiican owned Hospital
+Purpose:    Calculating Market share for physician owned hospital
+
+The SURVEYFREQ Procedure
+
+            Data Summary
+
+Number of Observations          4796
+
+
+                                                 Table of hospsize by casehosp
+
+                                             Std Err of   95% Confidence Limits    Column    Std Err of   95% Confidence Limits
+hospsize   casehosp    Frequency   Percent      Percent          for Percent      Percent   Col Percent      for Col Percent
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+       1          0         2395   49.9583       0.7222   48.5424       51.3742   50.0418        0.7228   48.6247       51.4588
+                  1            2    0.0417       0.0295    0.0000        0.0995   25.0000       15.3109    0.0000       55.0164
+
+              Total         2397   50.0000       0.7222   48.5841       51.4159
+-------------------------------------------------------------------------------------------------------------------------------
+       2          0         1945   40.5715       0.7093   39.1811       41.9620   40.6394        0.7100   39.2474       42.0314
+                  1            2    0.0417       0.0295    0.0000        0.0995   25.0000       15.3109    0.0000       55.0164
+
+              Total         1947   40.6133       0.7094   39.2226       42.0040
+-------------------------------------------------------------------------------------------------------------------------------
+       3          0          446    9.3033       0.4196    8.4807       10.1259    9.3188        0.4202    8.4950       10.1427
+                  1            4    0.0834       0.0417    0.0017        0.1652   50.0000       17.6795   15.3400       84.6600
+
+              Total          450    9.3867       0.4213    8.5609       10.2126
+-------------------------------------------------------------------------------------------------------------------------------
+   Total          0         4786   99.8331       0.0590   99.7175       99.9487   100.000
+                  1            8    0.1669       0.0590    0.0513        0.2825   100.000
+
+              Total         4794   100.000
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+                                                     Frequency Missing = 2
+
+
+  Rao-Scott Chi-Square Test
+
+Pearson Chi-Square    15.5638
+Design Correction      1.0000
+
+Rao-Scott Chi-Square  15.5638
+DF                          2
+Pr > ChiSq             0.0004
+
+F Value                7.7819
+Num DF                      2
+Den DF                   9586
+Pr > F                 0.0004
+
+     Sample Size = 4794
+The SAS System                                                                                     09:47 Friday, August 23, 2013   7
+Filename:   C:\data\Projects\Specialty_Hospitals\Programs\table1_hospchar.sas
+Project:    Specialty Hospital (Physiican owned Hospital
+Purpose:    Calculating Market share for physician owned hospital
+Table 1: Variable HOSPSIZE by casehosp
+
+The SURVEYFREQ Procedure
+
+            Data Summary
+
+Number of Observations          4796
+
+
+                                                 Table of profit2 by casehosp
+
+                                            Std Err of   95% Confidence Limits    Column    Std Err of   95% Confidence Limits
+profit2   casehosp    Frequency   Percent      Percent          for Percent      Percent   Col Percent      for Col Percent
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+      1          0          874   18.2235       0.5575   17.1306       19.3165   18.2540        0.5583   17.1594       19.3485
+                 1            1    0.0209       0.0209    0.0000        0.0617   12.5000       11.6939    0.0000       35.4254
+
+             Total          875   18.2444       0.5577   17.1510       19.3378
+------------------------------------------------------------------------------------------------------------------------------
+      2          0         2827   58.9450       0.7104   57.5522       60.3377   59.0434        0.7107   57.6500       60.4368
+                 1            5    0.1043       0.0466    0.0129        0.1956   62.5000       17.1181   28.9406       96.0594
+
+             Total         2832   59.0492       0.7101   57.6570       60.4414
+------------------------------------------------------------------------------------------------------------------------------
+      3          0         1087   22.6647       0.6046   21.4794       23.8500   22.7026        0.6055   21.5156       23.8896
+                 1            2    0.0417       0.0295    0.0000        0.0995   25.0000       15.3109    0.0000       55.0164
+
+             Total         1089   22.7064       0.6050   21.5204       23.8925
+------------------------------------------------------------------------------------------------------------------------------
+  Total          0         4788   99.8332       0.0589   99.7177       99.9487   100.000
+                 1            8    0.1668       0.0589    0.0513        0.2823   100.000
+
+             Total         4796   100.000
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+
+
+ Rao-Scott Chi-Square Test
+
+Pearson Chi-Square    0.1797
+Design Correction     1.0000
+
+Rao-Scott Chi-Square  0.1797
+DF                         2
+Pr > ChiSq            0.9141
+
+F Value               0.0898
+Num DF                     2
+Den DF                  9590
+Pr > F                0.9141
+
+     Sample Size = 4796
+The SAS System                                                                                     09:47 Friday, August 23, 2013   8
+Filename:   C:\data\Projects\Specialty_Hospitals\Programs\table1_hospchar.sas
+Project:    Specialty Hospital (Physiican owned Hospital
+Purpose:    Calculating Market share for physician owned hospital
+Table 1: Variable PROFIT2 by casehosp
+
+The SURVEYFREQ Procedure
+
+            Data Summary
+
+Number of Observations          4796
+
+
+                                                 Table of hosp_reg4 by casehosp
+
+                                              Std Err of   95% Confidence Limits    Column    Std Err of   95% Confidence Limits
+hosp_reg4   casehosp    Frequency   Percent      Percent          for Percent      Percent   Col Percent      for Col Percent
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+        1          0          595   12.4062       0.4761   11.4729       13.3395   12.4269        0.4768   11.4922       13.3616
+                   1            2    0.0417       0.0295    0.0000        0.0995   25.0000       15.3109    0.0000       55.0164
+
+               Total          597   12.4479       0.4767   11.5132       13.3825
+--------------------------------------------------------------------------------------------------------------------------------
+        2          0         1407   29.3369       0.6575   28.0479       30.6260   29.3860        0.6584   28.0952       30.6767
+                   1            3    0.0626       0.0361    0.0000        0.1333   37.5000       17.1181    3.9406       71.0594
+
+               Total         1410   29.3995       0.6579   28.1097       30.6893
+--------------------------------------------------------------------------------------------------------------------------------
+        3          0         1831   38.1776       0.7016   36.8022       39.5531   38.2414        0.7024   36.8644       39.6185
+                   1            3    0.0626       0.0361    0.0000        0.1333   37.5000       17.1181    3.9406       71.0594
+
+               Total         1834   38.2402       0.7018   36.8643       39.6161
+--------------------------------------------------------------------------------------------------------------------------------
+        4          0          955   19.9124       0.5767   18.7818       21.0430   19.9457        0.5775   18.8134       21.0779
+                   1            0     .            .         .             .         .             .         .             .
+
+               Total          955   19.9124       0.5767   18.7818       21.0430
+--------------------------------------------------------------------------------------------------------------------------------
+    Total          0         4788   99.8332       0.0589   99.7177       99.9487   100.000
+                   1            8    0.1668       0.0589    0.0513        0.2823   100.000
+
+               Total         4796   100.000
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+The SAS System                                                                                     09:47 Friday, August 23, 2013   9
+Filename:   C:\data\Projects\Specialty_Hospitals\Programs\table1_hospchar.sas
+Project:    Specialty Hospital (Physiican owned Hospital
+Purpose:    Calculating Market share for physician owned hospital
+Table 1: Variable HOSP_REG4 by casehosp
+
+The SURVEYFREQ Procedure
+
+            Data Summary
+
+Number of Observations          4796
+
+
+                                                 Table of RUCACAT by casehosp
+
+                                            Std Err of   95% Confidence Limits    Column    Std Err of   95% Confidence Limits
+RUCACAT   casehosp    Frequency   Percent      Percent          for Percent      Percent   Col Percent      for Col Percent
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+      1          0         2196   45.9030       0.7205   44.4904       47.3156   45.9799        0.7212   44.5660       47.3938
+                 1            8    0.1672       0.0591    0.0514        0.2830   100.000        0.0000   100.000       100.000
+
+             Total         2204   46.0702       0.7207   44.6573       47.4832
+------------------------------------------------------------------------------------------------------------------------------
+      2          0         1058   22.1154       0.6001   20.9389       23.2919   22.1524        0.6010   20.9743       23.3306
+                 1            0     .            .         .             .         .             .         .             .
+
+             Total         1058   22.1154       0.6001   20.9389       23.2919
+------------------------------------------------------------------------------------------------------------------------------
+      3          0         1522   31.8144       0.6735   30.4941       33.1347   31.8677        0.6743   30.5457       33.1896
+                 1            0     .            .         .             .         .             .         .             .
+
+             Total         1522   31.8144       0.6735   30.4941       33.1347
+------------------------------------------------------------------------------------------------------------------------------
+  Total          0         4776   99.8328       0.0591   99.7170       99.9486   100.000
+                 1            8    0.1672       0.0591    0.0514        0.2830   100.000
+
+             Total         4784   100.000
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+                                                    Frequency Missing = 12
+The SAS System                                                                                     09:47 Friday, August 23, 2013  10
+Filename:   C:\data\Projects\Specialty_Hospitals\Programs\table1_hospchar.sas
+Project:    Specialty Hospital (Physiican owned Hospital
+Purpose:    Calculating Market share for physician owned hospital
+Table 1: Variable RUCAcat by casehosp
+
+The SURVEYFREQ Procedure
+
+            Data Summary
+
+Number of Observations          4796
+
+
+                                                     Table of mapp8 by casehosp
+
+                                              Std Err of    95% Confidence Limits     Column     Std Err of    95% Confidence Limits
+mapp8    casehosp     Frequency    Percent       Percent           for Percent       Percent    Col Percent       for Col Percent
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+    1           0           280     5.8382        0.3386     5.1744        6.5020     5.8480         0.3391     5.1831        6.5128
+                1             4     0.0834        0.0417     0.0017        0.1651    50.0000        17.6795    15.3400       84.6600
+
+            Total           284     5.9216        0.3409     5.2534        6.5898
+------------------------------------------------------------------------------------------------------------------------------------
+    2           0          4508    93.9950        0.3431    93.3224       94.6676    94.1520         0.3391    93.4872       94.8169
+                1             4     0.0834        0.0417     0.0017        0.1651    50.0000        17.6795    15.3400       84.6600
+
+            Total          4512    94.0784        0.3409    93.4102       94.7466
+------------------------------------------------------------------------------------------------------------------------------------
+Total           0          4788    99.8332        0.0589    99.7177       99.9487    100.000
+                1             8     0.1668        0.0589     0.0513        0.2823    100.000
+
+            Total          4796    100.000
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+
+
+  Rao-Scott Chi-Square Test
+
+Pearson Chi-Square    27.9472
+Design Correction      1.0000
+
+Rao-Scott Chi-Square  27.9472
+DF                          1
+Pr > ChiSq             <.0001
+
+F Value               27.9472
+Num DF                      1
+Den DF                   4795
+Pr > F                 <.0001
+
+     Sample Size = 4796
+The SAS System                                                                                     09:47 Friday, August 23, 2013  11
+Filename:   C:\data\Projects\Specialty_Hospitals\Programs\table1_hospchar.sas
+Project:    Specialty Hospital (Physiican owned Hospital
+Purpose:    Calculating Market share for physician owned hospital
+Table 1 - Hospital Characteristics
+
+Obs     byvar      variable    value         P1         P2      Med1       Med2
+
+  1    casehosp    HOSPSIZE      1      25.0000    50.0418     .          .
+  2    casehosp    HOSPSIZE      2      25.0000    40.6394     .          .
+  3    casehosp    HOSPSIZE      3      50.0000     9.3188     .          .
+  4    casehosp    PROFIT2       1      12.5000    18.2540     .          .
+  5    casehosp    PROFIT2       2      62.5000    59.0434     .          .
+  6    casehosp    PROFIT2       3      25.0000    22.7026     .          .
+  7    casehosp    HOSP_REG      1      25.0000    12.4269     .          .
+  8    casehosp    HOSP_REG      2      37.5000    29.3860     .          .
+  9    casehosp    HOSP_REG      3      37.5000    38.2414     .          .
+ 10    casehosp    HOSP_REG      4        .        19.9457     .          .
+ 11    casehosp    RUCAcat       1      100.000    45.9799     .          .
+ 12    casehosp    RUCAcat       2        .        22.1524     .          .
+ 13    casehosp    RUCAcat       3        .        31.8677     .          .
+ 14    casehosp    mapp8         1      50.0000     5.8480     .          .
+ 15    casehosp    mapp8         2      50.0000    94.1520     .          .
+ 16    casehosp    propblk1      1       0.6518     0.0835    0.67519    0.02198
+ 17    casehosp    p_medica      1       0.3062     0.1708    0.34596    0.16667
+ 18    casehosp    p_medica      1       0.3622     0.4926    0.40115    0.48611
+ 19    casehosp    adjreadm      1       0.2131     0.1970    0.20172    0.18186
+ 20    casehosp    adjreadm      1       0.2810     0.2529    0.27115    0.24244
+ 21    casehosp    adjreadm      1       0.2176     0.1858    0.21490    0.17909
+ 22    casehosp    Penalty1      1       0.0054     0.0028    0.00420    0.00140
+The SAS System                                                                                     09:47 Friday, August 23, 2013  12
+Filename:   C:\data\Projects\Specialty_Hospitals\Programs\table1_hospchar.sas
+Project:    Specialty Hospital (Physiican owned Hospital
+Purpose:    Calculating Market share for physician owned hospital
+Table 1 - Hospital Characteristics
+
+Obs     byvar      variable    value         P1         P2      Med1       Med2
+
+  1    casehosp    HOSPSIZE      1      25.0000    50.0418     .          .
+  2    casehosp    HOSPSIZE      2      25.0000    40.6394     .          .
+  3    casehosp    HOSPSIZE      3      50.0000     9.3188     .          .
+  4    casehosp    PROFIT2       1      12.5000    18.2540     .          .
+  5    casehosp    PROFIT2       2      62.5000    59.0434     .          .
+  6    casehosp    PROFIT2       3      25.0000    22.7026     .          .
+  7    casehosp    HOSP_REG      1      25.0000    12.4269     .          .
+  8    casehosp    HOSP_REG      2      37.5000    29.3860     .          .
+  9    casehosp    HOSP_REG      3      37.5000    38.2414     .          .
+ 10    casehosp    HOSP_REG      4        .        19.9457     .          .
+ 11    casehosp    RUCAcat       1      100.000    45.9799     .          .
+ 12    casehosp    RUCAcat       2        .        22.1524     .          .
+ 13    casehosp    RUCAcat       3        .        31.8677     .          .
+ 14    casehosp    mapp8         1      50.0000     5.8480     .          .
+ 15    casehosp    mapp8         2      50.0000    94.1520     .          .
+ 16    casehosp    propblk1      1       0.6518     0.0835    0.67519    0.02198
+ 17    casehosp    p_medica      1       0.3062     0.1708    0.34596    0.16667
+ 18    casehosp    p_medica      1       0.3622     0.4926    0.40115    0.48611
+ 19    casehosp    adjreadm      1       0.2131     0.1970    0.20172    0.18186
+ 20    casehosp    adjreadm      1       0.2810     0.2529    0.27115    0.24244
+ 21    casehosp    adjreadm      1       0.2176     0.1858    0.21490    0.17909
+ 22    casehosp    Penalty1      1       0.0054     0.0028    0.00420    0.00140

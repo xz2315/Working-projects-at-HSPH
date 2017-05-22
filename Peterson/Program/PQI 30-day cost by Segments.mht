@@ -1,0 +1,1692 @@
+From: "Saved by Internet Explorer 11"
+Subject: SAS Output
+Date: Mon, 18 Apr 2016 17:04:07 -0400
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="shift_jis"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\data\Users\xiz933\AppData\Local\Temp\40\SAS Temporary Files\_TD21344_HSPHCMS_\sashtml3.htm
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><META content=3D"IE=3D5.0000" =
+http-equiv=3D"X-UA-Compatible">
+<TITLE>SAS Output</TITLE>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.9600.17496">
+<META content=3D"text/html; charset=3Dshift_jis" =
+http-equiv=3DContent-type>
+<STYLE type=3Dtext/css>.aftercaption {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+PADDING-TOP: 4pt; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.batch {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 1px solid; FONT-FAMILY: 'SAS =
+Monospace', 'MS Gothic', Courier, monospace; BORDER-RIGHT: #c1c1c1 1px =
+solid; BORDER-COLLAPSE: separate; BORDER-BOTTOM: #c1c1c1 1px solid; =
+FONT-WEIGHT: normal; COLOR: #000000; PADDING-BOTTOM: 7px; FONT-STYLE: =
+normal; PADDING-TOP: 7px; PADDING-LEFT: 7px; BORDER-SPACING: 1px; =
+BORDER-LEFT: #c1c1c1 1px solid; PADDING-RIGHT: 7px; BACKGROUND-COLOR: =
+#fafbfe
+}
+.beforecaption {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.body {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+MARGIN-LEFT: 8px; BACKGROUND-COLOR: #fafbfe; MARGIN-RIGHT: 8px
+}
+.bodydate {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; WIDTH: 100%; VERTICAL-ALIGN: top; FONT-WEIGHT: normal; COLOR: =
+#000000; FONT-STYLE: normal; TEXT-ALIGN: right; BORDER-SPACING: 0px; =
+BACKGROUND-COLOR: #fafbfe
+}
+.bycontentfolder {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.byline {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.bylinecontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #000000 0px =
+solid; WIDTH: 100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; =
+BORDER-LEFT: #000000 0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.caption {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.cell {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.container {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.contentfolder {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.contentitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.contentproclabel {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.contentprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.contents {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: x-small; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: =
+#000000; FONT-STYLE: normal; MARGIN-LEFT: 8px; BACKGROUND-COLOR: =
+#fafbfe; MARGIN-RIGHT: 8px
+}
+.contentsdate {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; BACKGROUND-COLOR: #fafbfe
+}
+.contenttitle {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: italic; =
+BACKGROUND-COLOR: #fafbfe
+}
+.continued {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; WIDTH: 100%; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: =
+normal; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.data {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px =
+solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; =
+FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: =
+#ffffff
+}
+.dataemphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px =
+solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; =
+FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: =
+#ffffff
+}
+.dataemphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: 'MS =
+Gothic', Courier, monospace; BORDER-RIGHT: #c1c1c1 1px solid; =
+BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: =
+italic; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.dataempty {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px =
+solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; =
+FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: =
+#ffffff
+}
+.datafixed {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: 'MS =
+Gothic', Courier; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: =
+#c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: =
+#c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.datastrong {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px =
+solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: bold; COLOR: =
+#000000; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; =
+BACKGROUND-COLOR: #ffffff
+}
+.datastrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: 'MS =
+Gothic', Courier, monospace; BORDER-RIGHT: #c1c1c1 1px solid; =
+BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: bold; COLOR: #000000; =
+FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: =
+#ffffff
+}
+.date {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; BACKGROUND-COLOR: #fafbfe
+}
+.document {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+A:link {
+	COLOR: #0000ff
+}
+A:visited {
+	COLOR: #800080
+}
+A:active {
+	COLOR: #800080
+}
+.errorbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.errorcontent {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.errorcontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS Gothic', Courier; FONT-WEIGHT: =
+normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.extendedpage {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 1pt solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #000000 1pt =
+solid; BORDER-BOTTOM: #000000 1pt solid; FONT-WEIGHT: normal; COLOR: =
+#112277; FONT-STYLE: italic; TEXT-ALIGN: center; BORDER-LEFT: #000000 =
+1pt solid; BACKGROUND-COLOR: #fafbfe
+}
+.fatalbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.fatalcontent {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.fatalcontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS Gothic', Courier; FONT-WEIGHT: =
+normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.folderaction {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.footer {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px =
+solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: =
+#112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; =
+BACKGROUND-COLOR: #edf2f9
+}
+.footeremphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px =
+solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: =
+#112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; =
+BACKGROUND-COLOR: #edf2f9
+}
+.footeremphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+Gothic', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; =
+FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.footerempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px =
+solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: =
+#112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; =
+BACKGROUND-COLOR: #edf2f9
+}
+.footerfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+Gothic', Courier; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: =
+#b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: =
+normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footerstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px =
+solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: =
+#112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; =
+BACKGROUND-COLOR: #edf2f9
+}
+.footerstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+Gothic', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.frame {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.graph {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 1px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px =
+solid; BORDER-COLLAPSE: separate; BORDER-BOTTOM: #c1c1c1 1px solid; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: =
+1px; BORDER-LEFT: #c1c1c1 1px solid; BACKGROUND-COLOR: #fafbfe
+}
+.header {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px =
+solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: =
+#112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; =
+BACKGROUND-COLOR: #edf2f9
+}
+.headeremphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px =
+solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: =
+#000000; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; =
+BACKGROUND-COLOR: #d8dbd3
+}
+.headeremphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+Gothic', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#d8dbd3
+}
+.headerempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px =
+solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: =
+#112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; =
+BACKGROUND-COLOR: #edf2f9
+}
+.headerfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+Gothic', Courier; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: =
+#b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: =
+normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.headersandfooters {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #edf2f9
+}
+.headerstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px =
+solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: =
+#000000; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; =
+BACKGROUND-COLOR: #d8dbd3
+}
+.headerstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+Gothic', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #000000; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#d8dbd3
+}
+.index {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.indexaction {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.indexitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.indexprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.indextitle {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: italic; =
+BACKGROUND-COLOR: #fafbfe
+}
+.layoutcontainer {
+	BORDER-TOP: #000000 0px solid; BORDER-RIGHT: #000000 0px solid; =
+BORDER-BOTTOM: #000000 0px solid; BORDER-SPACING: 30px; BORDER-LEFT: =
+#000000 0px solid
+}
+.layoutregion {
+	BORDER-TOP: #000000 0px solid; BORDER-RIGHT: #000000 0px solid; =
+BORDER-BOTTOM: #000000 0px solid; BORDER-SPACING: 30px; BORDER-LEFT: =
+#000000 0px solid
+}
+.linecontent {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px =
+solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; COLOR: =
+#112277; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; =
+BACKGROUND-COLOR: #fafbfe
+}
+.list {
+	LIST-STYLE-TYPE: disc; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list10 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list2 {
+	LIST-STYLE-TYPE: circle; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list3 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list4 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list5 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list6 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list7 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list8 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list9 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem {
+	LIST-STYLE-TYPE: disc; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem10 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem2 {
+	LIST-STYLE-TYPE: circle; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem3 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem4 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem5 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem6 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem7 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem8 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem9 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.note {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.notebanner {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.notecontent {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.notecontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS Gothic', Courier; FONT-WEIGHT: =
+normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.output {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 1px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #c1c1c1 1px =
+solid; BORDER-COLLAPSE: separate; BORDER-BOTTOM: #c1c1c1 1px solid; =
+FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: =
+1px; BORDER-LEFT: #c1c1c1 1px solid; BACKGROUND-COLOR: #fafbfe
+}
+.pageno {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; TEXT-ALIGN: right; BORDER-SPACING: 0px; =
+BACKGROUND-COLOR: #fafbfe
+}
+.pages {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: x-small; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: =
+#000000; FONT-STYLE: normal; MARGIN-LEFT: 8px; BACKGROUND-COLOR: =
+#fafbfe; MARGIN-RIGHT: 8px
+}
+.pagesdate {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: =
+normal; BACKGROUND-COLOR: #fafbfe
+}
+.pagesitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', =
+'MS PGothic', Helvetica, Helv; FONT-WEIGHT: normal; COLOR: #000000; =
+FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.pagesproclabel {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.pagesprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.pagestitle {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: italic; =
+BACKGROUND-COLOR: #fafbfe
+}
+.paragraph {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.parskip {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #000000 0px =
+solid; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: bold; FONT-STYLE: =
+normal; BORDER-SPACING: 0px; BORDER-LEFT: #000000 0px solid
+}
+.prepage {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+TEXT-ALIGN: left; BACKGROUND-COLOR: #fafbfe
+}
+.proctitle {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.proctitlefixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS Gothic', Courier, monospace; =
+FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: =
+#fafbfe
+}
+.rowfooter {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px =
+solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: =
+#112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; =
+BACKGROUND-COLOR: #edf2f9
+}
+.rowfooteremphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px =
+solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: =
+#112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; =
+BACKGROUND-COLOR: #edf2f9
+}
+.rowfooteremphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+Gothic', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; =
+FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.rowfooterempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px =
+solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: =
+#112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; =
+BACKGROUND-COLOR: #edf2f9
+}
+.rowfooterfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+Gothic', Courier; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: =
+#b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: =
+normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooterstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px =
+solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: =
+#112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; =
+BACKGROUND-COLOR: #edf2f9
+}
+.rowfooterstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+Gothic', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.rowheader {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px =
+solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: =
+#112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; =
+BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderemphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px =
+solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: =
+#112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; =
+BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderemphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+Gothic', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; =
+FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.rowheaderempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px =
+solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: =
+#112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; =
+BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+Gothic', Courier; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: =
+#b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: =
+normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #b0b7bb 1px =
+solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: =
+#112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; =
+BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: 'MS =
+Gothic', Courier, monospace; BORDER-RIGHT: #b0b7bb 1px solid; =
+BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; =
+FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: =
+#edf2f9
+}
+.systemfooter {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter10 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter2 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter3 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter4 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter5 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter6 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter7 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter8 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter9 {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle10 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle2 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle3 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle4 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle5 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle6 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle7 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle8 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle9 {
+	FONT-SIZE: small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.systitleandfootercontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #000000 0px =
+solid; WIDTH: 100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; =
+BORDER-LEFT: #000000 0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.table {
+	BORDER-TOP: #c1c1c1 1px solid; BORDER-RIGHT: #c1c1c1 0px solid; =
+BORDER-COLLAPSE: collapse; BORDER-BOTTOM: #c1c1c1 0px solid; =
+BORDER-SPACING: 0px; BORDER-LEFT: #c1c1c1 1px solid
+}
+.top_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: =
+1px; BORDER-LEFT: 0px
+}
+.middle_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: =
+1px; PADDING-TOP: 1px; BORDER-LEFT: 0px
+}
+.bottom_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-TOP: =
+1px; BORDER-LEFT: 0px
+}
+.titleandnotecontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: 'MS =
+PGothic', 'MS PGothic', Helvetica, Helv; BORDER-RIGHT: #000000 0px =
+solid; WIDTH: 100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: =
+normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; =
+BORDER-LEFT: #000000 0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.titlesandfooters {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.usertext {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.warnbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.warncontent {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS PGothic', 'MS PGothic', Helvetica, =
+Helv; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; =
+BACKGROUND-COLOR: #fafbfe
+}
+.warncontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: 'MS Gothic', Courier; FONT-WEIGHT: =
+normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.l {
+	TEXT-ALIGN: left
+}
+.c {
+	TEXT-ALIGN: center
+}
+.r {
+	TEXT-ALIGN: right
+}
+.d {
+	TEXT-ALIGN: right
+}
+.j {
+	TEXT-ALIGN: justify
+}
+.t {
+	VERTICAL-ALIGN: top
+}
+.m {
+	VERTICAL-ALIGN: middle
+}
+.b {
+	VERTICAL-ALIGN: bottom
+}
+TD {
+	VERTICAL-ALIGN: top
+}
+TH {
+	VERTICAL-ALIGN: top
+}
+.stacked_cell {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px
+}
+</STYLE>
+
+<SCRIPT language=3Djavascript type=3Dtext/javascript>
+<!--=20
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</SCRIPT>
+</HEAD>
+<BODY class=3Dbody onload=3Dstartup() onunload=3Dshutdown()>
+<SCRIPT language=3Djavascript type=3Dtext/javascript>
+<!--=20
+var _info =3D navigator.userAgent
+var _ie =3D (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 =3D _info.indexOf("x64") > 0
+
+//-->
+</SCRIPT>
+
+<DIV class=3Dbranch><A name=3DIDX></A>
+<TABLE class=3Dsystitleandfootercontainer cellSpacing=3D1 =
+cellPadding=3D1 rules=3Dnone=20
+width=3D"100%" summary=3D"Page Layout" border=3D0 frame=3Dvoid>
+  <TBODY>
+  <TR>
+    <TD class=3D"c systemtitle">Numbe of Medicare FFS bene=20
+2012</TD></TR></TBODY></TABLE><BR>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#c1c1c1 cellSpacing=3D0 =
+cellPadding=3D5 rules=3Dall=20
+summary=3D"Procedure Tabulate: Table 1" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c m header" rowSpan=3D2 scope=3Dcol>&nbsp;</TH>
+    <TH class=3D"c header" colSpan=3D6 =
+scope=3Dcolgroup>segment</TH></TR>
+  <TR>
+    <TH class=3D"c header" scope=3Dcol>1</TH>
+    <TH class=3D"c header" scope=3Dcol>2</TH>
+    <TH class=3D"c header" scope=3Dcol>3</TH>
+    <TH class=3D"c header" scope=3Dcol>4</TH>
+    <TH class=3D"c header" scope=3Dcol>5</TH>
+    <TH class=3D"c header" scope=3Dcol>6</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>N. of Bene</TH>
+    <TD class=3D"r b data">1093542</TD>
+    <TD class=3D"r b data">522960</TD>
+    <TD class=3D"r b data">591578</TD>
+    <TD class=3D"r b data">1774017</TD>
+    <TD class=3D"r b data">1535836</TD>
+    <TD class=3D"r b =
+data">594517</TD></TR></TBODY></TABLE></DIV></DIV><BR></DIV>
+<DIV class=3Dbranch>
+<P style=3D"PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3D3>
+<A name=3DIDX1></A>
+<TABLE class=3Dsystitleandfootercontainer cellSpacing=3D1 =
+cellPadding=3D1 rules=3Dnone=20
+width=3D"100%" summary=3D"Page Layout" border=3D0 frame=3Dvoid>
+  <TBODY>
+  <TR>
+    <TD class=3D"c systemtitle">Standard Cost within 30-day post PQI=20
+    admissions</TD></TR></TBODY></TABLE><BR>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#c1c1c1 cellSpacing=3D0 =
+cellPadding=3D5 rules=3Dall=20
+summary=3D"Procedure Tabulate: Table 1" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c m header" rowSpan=3D3 scope=3Dcol>&nbsp;</TH>
+    <TH class=3D"c header" colSpan=3D30 =
+scope=3Dcolgroup>segment</TH></TR>
+  <TR>
+    <TH class=3D"c header" colSpan=3D5 scope=3Dcolgroup>1</TH>
+    <TH class=3D"c header" colSpan=3D5 scope=3Dcolgroup>2</TH>
+    <TH class=3D"c header" colSpan=3D5 scope=3Dcolgroup>3</TH>
+    <TH class=3D"c header" colSpan=3D5 scope=3Dcolgroup>4</TH>
+    <TH class=3D"c header" colSpan=3D5 scope=3Dcolgroup>5</TH>
+    <TH class=3D"c header" colSpan=3D5 scope=3Dcolgroup>6</TH></TR>
+  <TR>
+    <TH class=3D"c header" scope=3Dcol>Min</TH>
+    <TH class=3D"c header" scope=3Dcol>Mean</TH>
+    <TH class=3D"c header" scope=3Dcol>Median</TH>
+    <TH class=3D"c header" scope=3Dcol>Max</TH>
+    <TH class=3D"c header" scope=3Dcol>Sum</TH>
+    <TH class=3D"c header" scope=3Dcol>Min</TH>
+    <TH class=3D"c header" scope=3Dcol>Mean</TH>
+    <TH class=3D"c header" scope=3Dcol>Median</TH>
+    <TH class=3D"c header" scope=3Dcol>Max</TH>
+    <TH class=3D"c header" scope=3Dcol>Sum</TH>
+    <TH class=3D"c header" scope=3Dcol>Min</TH>
+    <TH class=3D"c header" scope=3Dcol>Mean</TH>
+    <TH class=3D"c header" scope=3Dcol>Median</TH>
+    <TH class=3D"c header" scope=3Dcol>Max</TH>
+    <TH class=3D"c header" scope=3Dcol>Sum</TH>
+    <TH class=3D"c header" scope=3Dcol>Min</TH>
+    <TH class=3D"c header" scope=3Dcol>Mean</TH>
+    <TH class=3D"c header" scope=3Dcol>Median</TH>
+    <TH class=3D"c header" scope=3Dcol>Max</TH>
+    <TH class=3D"c header" scope=3Dcol>Sum</TH>
+    <TH class=3D"c header" scope=3Dcol>Min</TH>
+    <TH class=3D"c header" scope=3Dcol>Mean</TH>
+    <TH class=3D"c header" scope=3Dcol>Median</TH>
+    <TH class=3D"c header" scope=3Dcol>Max</TH>
+    <TH class=3D"c header" scope=3Dcol>Sum</TH>
+    <TH class=3D"c header" scope=3Dcol>Min</TH>
+    <TH class=3D"c header" scope=3Dcol>Mean</TH>
+    <TH class=3D"c header" scope=3Dcol>Median</TH>
+    <TH class=3D"c header" scope=3Dcol>Max</TH>
+    <TH class=3D"c header" scope=3Dcol>Sum</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>NPQI</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.04</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">9.00</TD>
+    <TD class=3D"r b data">44898.00</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.18</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">8.00</TD>
+    <TD class=3D"r b data">95270.00</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.09</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">8.00</TD>
+    <TD class=3D"r b data">50521.00</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.02</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">6.00</TD>
+    <TD class=3D"r b data">42911.00</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.01</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">4.00</TD>
+    <TD class=3D"r b data">12210.00</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.01</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">6.00</TD>
+    <TD class=3D"r b data">4225.00</TD></TR>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>total_stdcost</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">283.65</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">1139589.79</TD>
+    <TD class=3D"r b data">310179235.54</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">1914.67</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">793146.60</TD>
+    <TD class=3D"r b data">1001296099.2</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">380.80</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">398368.04</TD>
+    <TD class=3D"r b data">225272937.45</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">79.50</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">297894.63</TD>
+    <TD class=3D"r b data">141040055.85</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">23.65</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">405784.88</TD>
+    <TD class=3D"r b data">36317859.64</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">22.44</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">302597.77</TD>
+    <TD class=3D"r b data">13339056.47</TD></TR>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>stdcostInpatient</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">92.57</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">560002.22</TD>
+    <TD class=3D"r b data">101228811.64</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">443.45</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">391893.25</TD>
+    <TD class=3D"r b data">231908495.84</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">104.75</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">185472.43</TD>
+    <TD class=3D"r b data">61965545.84</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">21.06</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">141264.64</TD>
+    <TD class=3D"r b data">37358314.80</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">6.05</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">194956.54</TD>
+    <TD class=3D"r b data">9289356.24</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">6.60</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">140179.56</TD>
+    <TD class=3D"r b data">3924663.52</TD></TR>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>stdcostOutpatient</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">92.57</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">560002.22</TD>
+    <TD class=3D"r b data">101228811.64</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">443.45</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">391893.25</TD>
+    <TD class=3D"r b data">231908495.84</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">104.75</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">185472.43</TD>
+    <TD class=3D"r b data">61965545.84</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">21.06</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">141264.64</TD>
+    <TD class=3D"r b data">37358314.80</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">6.05</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">194956.54</TD>
+    <TD class=3D"r b data">9289356.24</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">6.60</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">140179.56</TD>
+    <TD class=3D"r b data">3924663.52</TD></TR>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>stdcostCarrier</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">46.40</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">105563.07</TD>
+    <TD class=3D"r b data">50738046.31</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">224.32</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">90441.03</TD>
+    <TD class=3D"r b data">117307931.48</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">66.93</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">72006.94</TD>
+    <TD class=3D"r b data">39592808.19</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">16.23</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">73871.47</TD>
+    <TD class=3D"r b data">28790337.41</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">5.44</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">66399.65</TD>
+    <TD class=3D"r b data">8362211.03</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">4.32</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">25614.00</TD>
+    <TD class=3D"r b data">2569484.16</TD></TR>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>stdcostHHA</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">17.81</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">21913.24</TD>
+    <TD class=3D"r b data">19472917.24</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">178.50</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">25267.25</TD>
+    <TD class=3D"r b data">93346268.69</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">49.13</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">19486.92</TD>
+    <TD class=3D"r b data">29065993.85</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">10.00</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">19613.51</TD>
+    <TD class=3D"r b data">17744965.73</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">2.83</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">11186.09</TD>
+    <TD class=3D"r b data">4353850.34</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">2.24</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">17500.29</TD>
+    <TD class=3D"r b data">1334049.33</TD></TR>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>stdcostSNF</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">24.44</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">96254.00</TD>
+    <TD class=3D"r b data">26724137.66</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">581.94</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">82236.42</TD>
+    <TD class=3D"r b data">304332739.96</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">38.14</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">147656.16</TD>
+    <TD class=3D"r b data">22561874.62</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">7.89</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">58560.00</TD>
+    <TD class=3D"r b data">13989240.83</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">2.67</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">40560.00</TD>
+    <TD class=3D"r b data">4106996.35</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">2.11</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">27439.10</TD>
+    <TD class=3D"r b data">1252586.14</TD></TR>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>stdcostHospice</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">1.03</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">27858.06</TD>
+    <TD class=3D"r b data">1125092.45</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">20.77</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">23420.91</TD>
+    <TD class=3D"r b data">10864352.33</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">6.03</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">28997.76</TD>
+    <TD class=3D"r b data">3570108.56</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">1.21</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">15158.99</TD>
+    <TD class=3D"r b data">2151454.46</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.22</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">11894.41</TD>
+    <TD class=3D"r b data">340111.55</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.15</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">6947.38</TD>
+    <TD class=3D"r b data">86910.05</TD></TR>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>stdcostDME</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">8.83</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">76275.32</TD>
+    <TD class=3D"r b data">9661418.59</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">22.23</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">33885.24</TD>
+    <TD class=3D"r b data">11627815.03</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">11.07</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">48940.41</TD>
+    <TD class=3D"r b data">6551060.54</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">2.06</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">22231.96</TD>
+    <TD class=3D"r b data">3647427.80</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.38</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">6220.06</TD>
+    <TD class=3D"r b data">575977.89</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.41</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">13823.22</TD>
+    <TD class=3D"r b =
+data">246699.74</TD></TR></TBODY></TABLE></DIV></DIV><BR></DIV>
+<DIV class=3Dbranch>
+<P style=3D"PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3D3>
+<A name=3DIDX2></A>
+<TABLE class=3Dsystitleandfootercontainer cellSpacing=3D1 =
+cellPadding=3D1 rules=3Dnone=20
+width=3D"100%" summary=3D"Page Layout" border=3D0 frame=3Dvoid>
+  <TBODY>
+  <TR>
+    <TD class=3D"c systemtitle">Actual Spending Cost within 30-day post =
+PQI=20
+      admissions</TD></TR></TBODY></TABLE><BR>
+<DIV>
+<DIV align=3Dcenter>
+<TABLE class=3Dtable borderColor=3D#c1c1c1 cellSpacing=3D0 =
+cellPadding=3D5 rules=3Dall=20
+summary=3D"Procedure Tabulate: Table 1" frame=3Dbox>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class=3D"c m header" rowSpan=3D3 scope=3Dcol>&nbsp;</TH>
+    <TH class=3D"c header" colSpan=3D30 =
+scope=3Dcolgroup>segment</TH></TR>
+  <TR>
+    <TH class=3D"c header" colSpan=3D5 scope=3Dcolgroup>1</TH>
+    <TH class=3D"c header" colSpan=3D5 scope=3Dcolgroup>2</TH>
+    <TH class=3D"c header" colSpan=3D5 scope=3Dcolgroup>3</TH>
+    <TH class=3D"c header" colSpan=3D5 scope=3Dcolgroup>4</TH>
+    <TH class=3D"c header" colSpan=3D5 scope=3Dcolgroup>5</TH>
+    <TH class=3D"c header" colSpan=3D5 scope=3Dcolgroup>6</TH></TR>
+  <TR>
+    <TH class=3D"c header" scope=3Dcol>Min</TH>
+    <TH class=3D"c header" scope=3Dcol>Mean</TH>
+    <TH class=3D"c header" scope=3Dcol>Median</TH>
+    <TH class=3D"c header" scope=3Dcol>Max</TH>
+    <TH class=3D"c header" scope=3Dcol>Sum</TH>
+    <TH class=3D"c header" scope=3Dcol>Min</TH>
+    <TH class=3D"c header" scope=3Dcol>Mean</TH>
+    <TH class=3D"c header" scope=3Dcol>Median</TH>
+    <TH class=3D"c header" scope=3Dcol>Max</TH>
+    <TH class=3D"c header" scope=3Dcol>Sum</TH>
+    <TH class=3D"c header" scope=3Dcol>Min</TH>
+    <TH class=3D"c header" scope=3Dcol>Mean</TH>
+    <TH class=3D"c header" scope=3Dcol>Median</TH>
+    <TH class=3D"c header" scope=3Dcol>Max</TH>
+    <TH class=3D"c header" scope=3Dcol>Sum</TH>
+    <TH class=3D"c header" scope=3Dcol>Min</TH>
+    <TH class=3D"c header" scope=3Dcol>Mean</TH>
+    <TH class=3D"c header" scope=3Dcol>Median</TH>
+    <TH class=3D"c header" scope=3Dcol>Max</TH>
+    <TH class=3D"c header" scope=3Dcol>Sum</TH>
+    <TH class=3D"c header" scope=3Dcol>Min</TH>
+    <TH class=3D"c header" scope=3Dcol>Mean</TH>
+    <TH class=3D"c header" scope=3Dcol>Median</TH>
+    <TH class=3D"c header" scope=3Dcol>Max</TH>
+    <TH class=3D"c header" scope=3Dcol>Sum</TH>
+    <TH class=3D"c header" scope=3Dcol>Min</TH>
+    <TH class=3D"c header" scope=3Dcol>Mean</TH>
+    <TH class=3D"c header" scope=3Dcol>Median</TH>
+    <TH class=3D"c header" scope=3Dcol>Max</TH>
+    <TH class=3D"c header" scope=3Dcol>Sum</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>NPQI</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.04</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">9.00</TD>
+    <TD class=3D"r b data">44898.00</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.18</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">8.00</TD>
+    <TD class=3D"r b data">95270.00</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.09</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">8.00</TD>
+    <TD class=3D"r b data">50521.00</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.02</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">6.00</TD>
+    <TD class=3D"r b data">42911.00</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.01</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">4.00</TD>
+    <TD class=3D"r b data">12210.00</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.01</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">6.00</TD>
+    <TD class=3D"r b data">4225.00</TD></TR>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>total_actual</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">325.35</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">1765135.55</TD>
+    <TD class=3D"r b data">355781487.73</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">2090.81</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">1007813.88</TD>
+    <TD class=3D"r b data">1093412423.1</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">427.68</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">504480.09</TD>
+    <TD class=3D"r b data">253006428.44</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">89.05</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">303264.18</TD>
+    <TD class=3D"r b data">157983039.01</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">26.43</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">639251.80</TD>
+    <TD class=3D"r b data">40590021.13</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">25.60</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">313590.89</TD>
+    <TD class=3D"r b data">15219498.60</TD></TR>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>actualInpatient</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">112.11</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">878809.73</TD>
+    <TD class=3D"r b data">122596839.65</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">527.62</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">498523.63</TD>
+    <TD class=3D"r b data">275921956.54</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">125.43</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">245539.80</TD>
+    <TD class=3D"r b data">74200454.84</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">25.15</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">142902.19</TD>
+    <TD class=3D"r b data">44614470.87</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">7.27</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">309749.08</TD>
+    <TD class=3D"r b data">11162888.71</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">8.09</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">140038.02</TD>
+    <TD class=3D"r b data">4810046.30</TD></TR>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>actualOutpatient</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">112.11</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">878809.73</TD>
+    <TD class=3D"r b data">122596839.65</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">527.62</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">498523.63</TD>
+    <TD class=3D"r b data">275921956.54</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">125.43</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">245539.80</TD>
+    <TD class=3D"r b data">74200454.84</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">25.15</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">142902.19</TD>
+    <TD class=3D"r b data">44614470.87</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">7.27</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">309749.08</TD>
+    <TD class=3D"r b data">11162888.71</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">8.09</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">140038.02</TD>
+    <TD class=3D"r b data">4810046.30</TD></TR>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>actualCarrier</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">50.34</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">105641.69</TD>
+    <TD class=3D"r b data">55047881.97</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">248.91</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">66513.00</TD>
+    <TD class=3D"r b data">130169528.72</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">73.93</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">72422.10</TD>
+    <TD class=3D"r b data">43737300.61</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">17.78</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">40383.29</TD>
+    <TD class=3D"r b data">31542654.16</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">5.90</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">66502.37</TD>
+    <TD class=3D"r b data">9066707.15</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">4.60</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">29609.49</TD>
+    <TD class=3D"r b data">2732423.60</TD></TR>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>actualHHA</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">16.90</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">16296.15</TD>
+    <TD class=3D"r b data">18485015.29</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">185.13</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">24905.50</TD>
+    <TD class=3D"r b data">96813090.43</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">49.54</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">16912.87</TD>
+    <TD class=3D"r b data">29305834.10</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">10.13</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">29619.74</TD>
+    <TD class=3D"r b data">17969332.23</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">2.83</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">10173.33</TD>
+    <TD class=3D"r b data">4350885.80</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">2.23</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">17728.64</TD>
+    <TD class=3D"r b data">1326289.71</TD></TR>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>actualSNF</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">24.05</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">96254.00</TD>
+    <TD class=3D"r b data">26295261.64</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">558.68</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">82280.18</TD>
+    <TD class=3D"r b data">292168556.43</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">36.37</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">147656.16</TD>
+    <TD class=3D"r b data">21514635.97</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">7.61</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">58560.00</TD>
+    <TD class=3D"r b data">13496915.46</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">2.56</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">40560.00</TD>
+    <TD class=3D"r b data">3935521.59</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">2.03</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">28090.00</TD>
+    <TD class=3D"r b data">1209575.79</TD></TR>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>actualHospice</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">1.00</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">28236.15</TD>
+    <TD class=3D"r b data">1098230.94</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">20.63</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">24895.36</TD>
+    <TD class=3D"r b data">10789519.39</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">5.91</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">36205.82</TD>
+    <TD class=3D"r b data">3496687.54</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">1.18</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">16347.88</TD>
+    <TD class=3D"r b data">2097767.62</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.22</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">15054.70</TD>
+    <TD class=3D"r b data">335151.28</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.14</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">7291.59</TD>
+    <TD class=3D"r b data">84417.16</TD></TR>
+  <TR>
+    <TH class=3D"l t rowheader" scope=3Drow>actualDME</TH>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">8.83</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">76275.32</TD>
+    <TD class=3D"r b data">9661418.59</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">22.23</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">33885.24</TD>
+    <TD class=3D"r b data">11627815.03</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">11.07</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">48940.41</TD>
+    <TD class=3D"r b data">6551060.54</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">2.06</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">22231.96</TD>
+    <TD class=3D"r b data">3647427.80</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.38</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">6220.06</TD>
+    <TD class=3D"r b data">575977.89</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">0.41</TD>
+    <TD class=3D"r b data">0.00</TD>
+    <TD class=3D"r b data">13823.22</TD>
+    <TD=20
+class=3D"r b =
+data">246699.74</TD></TR></TBODY></TABLE></DIV></DIV><BR></DIV></BODY></H=
+TML>
